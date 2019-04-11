@@ -8,4 +8,4 @@ class Anagram
     end
 
     def match(possible_anagrams)
-      words_array = self.word.split('')
+      words_array = self.word.split("")
