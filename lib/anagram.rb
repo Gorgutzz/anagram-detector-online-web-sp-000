@@ -11,3 +11,4 @@ class Anagram
       words_array = self.word.split("")
       possible_anagrams.select {|a| a.split}
     end
+  end
