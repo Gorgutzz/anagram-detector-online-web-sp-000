@@ -11,4 +11,13 @@ class Anagram
       words_array = self.word.split("")
       possible_anagrams.select {|a| a.split}
     end
-  end
+
+end
+
+
+
+ # array.select {|w| w.split("").sort == @name.split("").sort}
+
+
+ #     text_array=self.text.split('')
+#    possible_lists.select {|item| item.split('').sort==text_array.sort}
